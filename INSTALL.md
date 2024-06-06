@@ -4,32 +4,66 @@
 ### Étape 1 : Préparation
 
 1. [Télécharger l'ISO de Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows Server 2022.
-2. [Télécharger VirtualBox](https://www.virtualbox.org/wiki/Downloads) : Télécharger et Installer VirtualBox : Téléchargez VirtualBox depuis VirtualBox.org et installez-le. 
+2. Ouvrir Proxmox
+3. Ayez un compte utilisateur avec les droits nécessaires pour créer des VM sur Proxmox
 
-### Étape 2 : Création de la VM
+### Étapes 2 : Création de la VM Windows Server 2022
 
-1. **Création de la VM :**
+## Prérequis
 
-   - Ouvrez VirtualBox et cliquez sur "New".
-   - Nom : Windows Server 2022.
-   - Type : Microsoft Windows.
-   - Version : Windows 2022 (64-bit).
-   - Mémoire : Attribuez au moins 2048 Mo (2 Go).
-   - Disque Dur : Créez un nouveau disque virtuel (VDI) avec une taille dynamique, minimum 50 Go.
+1. **Accès à Proxmox VE** : Assurez-vous que Proxmox VE est installé et que vous pouvez y accéder via l'interface web.
+2. **ISO de Windows Server 2022** : Téléchargez l'image ISO de Windows Server 2022 depuis le site officiel de Microsoft.
+3. **Compte utilisateur** : Ayez un compte utilisateur avec les droits nécessaires pour créer des VM sur Proxmox.
 
-2. **Configuration de la VM :**
+## Étapes
 
-   - Sélectionnez votre VM et cliquez sur "Settings".
-   - Storage : Sous "Controller: IDE", ajoutez le fichier ISO de Windows Server 2022.
-   - Network : Configurez l'adaptateur réseau en mode "Bridged" ou "NAT" selon vos besoins.
+### 1. Télécharger l'ISO sur Proxmox
 
-### Étape 3: Installation de Windows Server 2022
+- Connectez-vous à l'interface web de Proxmox.
+- Accédez à `Datacenter` > `pve` (votre nœud Proxmox) > `Disques locaux` (par exemple, `local` ou `local-lvm`).
+- Cliquez sur l'onglet `Content` puis sur `Upload`.
+- Sélectionnez l'image ISO de Windows Server 2022 et téléchargez-la.
 
-1. **Démarrage de la VM :** Cliquez sur "Start" pour démarrer la VM avec l'ISO. Suivez les instructions pour installer Windows Server 2022, en choisissant les options par défaut à moins que vous ayez des préférences
-   spécifiques.
-   
-[Vidéo Tuto comment installer Tight VNC sur Windows Server 2022](https://openclassrooms.com/fr/courses/1733046-prenez-le-controle-a-distance-dun-poste-linux-windows-avec-vnc/5576651-installez-tightvnc-sous-windows-et-linux#/id/video_Player_2)
-### Étape 4: Configuration et Installation de TightVNC
+### 2. Créer une nouvelle VM
+
+- Dans l'interface web de Proxmox, cliquez sur le nœud où vous voulez créer la VM.
+- Cliquez sur `Create VM` dans le coin supérieur droit.
+- **General** :
+  - Donnez un nom à votre VM.
+- **OS** :
+  - Sélectionnez le stockage où se trouve votre ISO et choisissez l'ISO de Windows Server 2022.
+  - Choisissez `Microsoft Windows` comme type d'OS.
+- **System** :
+  - Gardez les paramètres par défaut ou ajustez selon vos besoins.
+- **Hard Disk** :
+  - Sélectionnez le stockage et configurez la taille du disque virtuel (par exemple, 60GB ou plus selon vos besoins).
+- **CPU** :
+  - Définissez le nombre de sockets et de cœurs selon les ressources disponibles.
+- **Memory** :
+  - Allouez la mémoire (par exemple, 4096 MB pour 4GB de RAM).
+- **Network** :
+  - Configurez l'interface réseau (généralement, le mode par défaut `virtio` fonctionne bien).
+
+### 3. Démarrer la VM et installer Windows Server 2022
+
+- Sélectionnez la VM nouvellement créée dans le volet de gauche.
+- Cliquez sur `Start` pour démarrer la VM.
+- Cliquez sur `Console` pour accéder à la console de la VM.
+- Suivez les étapes de l'assistant d'installation de Windows Server 2022.
+  - Choisissez la langue, le format de l'heure, et la méthode de clavier.
+  - Cliquez sur `Install Now`.
+  - Entrez la clé de produit si nécessaire.
+  - Sélectionnez la version de Windows Server 2022 à installer.
+  - Acceptez les termes de licence.
+  - Choisissez `Custom: Install Windows only (advanced)`.
+  - Sélectionnez le disque et cliquez sur `Next` pour installer Windows Server 2022.
+
+### 4. Finaliser l'installation de Windows Server 2022
+
+- Complétez l'installation de Windows Server en suivant les instructions à l'écran.
+- Configurez les paramètres initiaux, tels que le mot de passe administrateur.
+
+## Étape 3: Configuration et Installation de TightVNC
 
 1. [Télécharger TightVNC](https://www.tightvnc.com/download.php) : Téléchargez la dernière version de TightVNC pour Windows 
    
@@ -67,11 +101,22 @@
 
    ![TightVNC](images/Installation_TightVNC_9.png)
 
+10 .Le panneau suivant joue un rôle crucial pour assurer la sécurité de l'installation de TightVNC sur cet ordinateur. Il est nécessaire de définir deux mots de passe distincts :
+
+- Le premier mot de passe garantit la sécurité de l'accès à distance à cet ordinateur. Tout client VNC désirant se connecter devra connaître ce mot de passe.
+
+- Le second mot de passe protège la configuration et le fonctionnement de TightVNC sur cet ordinateur. Toute modification de la configuration ou toute opération sur le serveur TightVNC devra être validée avec ce mot de passe.
+
+   ![TightVNC](images/Installation_TightVNC_9.png)
+
+11. **Ouverture du Port VNC dans le Pare-feu :** Ouvrez le pare-feu Windows Defender.
+
+   ![TightVNC](images/Installation_TightVNC_10.png)
+
+12. 
+
 
    
-10. **Configuration de TightVNC :** Lors de l'installation, configurez un mot de passe pour l'accès VNC. Assurez-vous que TightVNC démarre avec le système.
-11. **Ouverture du Port VNC dans le Pare-feu :** Ouvrez le pare-feu Windows Defender. Ajoutez une règle pour autoriser les connexions entrantes sur le port 5900 (port par défaut pour VNC).
-
 ### Étape 5: Configuration de TightVNC 
 
 1. **Configurer TightVNC pour démarrer automatiquement :** Une fois l'installation terminée, assurez-vous que TightVNC est configuré pour démarrer automatiquement avec le système. Vous pouvez généralement trouver cette option dans les paramètres de démarrage ou de services de Windows.

@@ -101,20 +101,40 @@
 
    ![TightVNC](images/Installation_TightVNC_9.png)
 
-10 .Le panneau suivant joue un rôle crucial pour assurer la sécurité de l'installation de TightVNC sur cet ordinateur. Il est nécessaire de définir deux mots de passe distincts :
+10. Le panneau suivant joue un rôle crucial pour assurer la sécurité de l'installation de TightVNC sur cet ordinateur. Il est nécessaire de définir deux mots de passe distincts :
 
 - Le premier mot de passe garantit la sécurité de l'accès à distance à cet ordinateur. Tout client VNC désirant se connecter devra connaître ce mot de passe.
 
 - Le second mot de passe protège la configuration et le fonctionnement de TightVNC sur cet ordinateur. Toute modification de la configuration ou toute opération sur le serveur TightVNC devra être validée avec ce mot de passe.
 
-   ![TightVNC](images/Installation_TightVNC_9.png)
+   ![TightVNC](images/Installation_TightVNC_10.png)
 
 11. **Ouverture du Port VNC dans le Pare-feu :** Ouvrez le pare-feu Windows Defender.
 
-   ![TightVNC](images/Installation_TightVNC_10.png)
+   ![TightVNC](images/Installation_TightVNC_11.png)
 
-12. 
+12. ### Ouvrir les ports VNC (5800 et 5900) dans Windows Defender
 
+
+### 1. Ouvrir le Pare-feu Windows Defender avec sécurité avancée
+
+- Appuyez sur les touches `Windows + R` pour ouvrir la boîte de dialogue "Exécuter".
+- Tapez `wf.msc` et appuyez sur `Entrée`.
+
+### 2. Ajouter une nouvelle règle pour le port 5800
+
+- Dans le volet de gauche, cliquez sur `Règles de trafic entrant`.
+- Dans le volet de droite, cliquez sur `Nouvelle règle...`.
+- Sélectionnez `Port` et cliquez sur `Suivant`.
+- Choisissez `TCP` et sélectionnez `Ports locaux spécifiques`. Entrez `5800` dans le champ et cliquez sur `Suivant`.
+- Sélectionnez `Autoriser la connexion` et cliquez sur `Suivant`.
+- Cochez les cases selon votre profil de réseau (`Domaine`, `Privé`, `Public`) et cliquez sur `Suivant`.
+- Donnez un nom à la règle, par exemple `Ouvrir Port 5800`, et cliquez sur `Terminer`.
+
+### 3. Répéter pour le port 5900
+
+- Répétez les mêmes étapes que pour le port 5800, mais entrez `5900` à la place de `5800`.
+- Nommez la règle `Ouvrir Port 5900`.
 
    
 ### Étape 5: Configuration de TightVNC 

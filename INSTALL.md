@@ -9,11 +9,6 @@
 
 ### Étapes 2 : Création de la VM Windows Server 2022
 
-### Prérequis
-
-1. **Accès à Proxmox VE** : Assurez-vous que Proxmox VE est installé et que vous pouvez y accéder via l'interface web.
-2. **ISO de Windows Server 2022** : Téléchargez l'image ISO de Windows Server 2022 depuis le site officiel de Microsoft.
-3. **Compte utilisateur** : Ayez un compte utilisateur avec les droits nécessaires pour créer des VM sur Proxmox.
 
 ### Étapes
 

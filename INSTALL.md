@@ -9,22 +9,22 @@
 
 ### Étapes 2 : Création de la VM Windows Server 2022
 
-## Prérequis
+### Prérequis
 
 1. **Accès à Proxmox VE** : Assurez-vous que Proxmox VE est installé et que vous pouvez y accéder via l'interface web.
 2. **ISO de Windows Server 2022** : Téléchargez l'image ISO de Windows Server 2022 depuis le site officiel de Microsoft.
 3. **Compte utilisateur** : Ayez un compte utilisateur avec les droits nécessaires pour créer des VM sur Proxmox.
 
-## Étapes
+### Étapes
 
-### 1. Télécharger l'ISO sur Proxmox
+#### 1. Télécharger l'ISO sur Proxmox
 
 - Connectez-vous à l'interface web de Proxmox.
 - Accédez à `Datacenter` > `pve` (votre nœud Proxmox) > `Disques locaux` (par exemple, `local` ou `local-lvm`).
 - Cliquez sur l'onglet `Content` puis sur `Upload`.
 - Sélectionnez l'image ISO de Windows Server 2022 et téléchargez-la.
 
-### 2. Créer une nouvelle VM
+#### 2. Créer une nouvelle VM
 
 - Dans l'interface web de Proxmox, cliquez sur le nœud où vous voulez créer la VM.
 - Cliquez sur `Create VM` dans le coin supérieur droit.
@@ -44,7 +44,7 @@
 - **Network** :
   - Configurez l'interface réseau (généralement, le mode par défaut `virtio` fonctionne bien).
 
-### 3. Démarrer la VM et installer Windows Server 2022
+#### 3. Démarrer la VM et installer Windows Server 2022
 
 - Sélectionnez la VM nouvellement créée dans le volet de gauche.
 - Cliquez sur `Start` pour démarrer la VM.
@@ -58,7 +58,7 @@
   - Choisissez `Custom: Install Windows only (advanced)`.
   - Sélectionnez le disque et cliquez sur `Next` pour installer Windows Server 2022.
 
-### 4. Finaliser l'installation de Windows Server 2022
+#### 4. Finaliser l'installation de Windows Server 2022
 
 - Complétez l'installation de Windows Server en suivant les instructions à l'écran.
 - Configurez les paramètres initiaux, tels que le mot de passe administrateur.

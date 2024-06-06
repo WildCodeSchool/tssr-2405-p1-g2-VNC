@@ -116,25 +116,25 @@
 12. ### Ouvrir les ports VNC (5800 et 5900) dans Windows Defender
 
 
-### 1. Ouvrir le Pare-feu Windows Defender avec sécurité avancée
+  #### 1. Ouvrir le Pare-feu Windows Defender avec sécurité avancée
 
-- Appuyez sur les touches `Windows + R` pour ouvrir la boîte de dialogue "Exécuter".
-- Tapez `wf.msc` et appuyez sur `Entrée`.
+  - Appuyez sur les touches `Windows + R` pour ouvrir la boîte de dialogue "Exécuter".
+  - Tapez `wf.msc` et appuyez sur `Entrée`.
 
-### 2. Ajouter une nouvelle règle pour le port 5800
+  #### 2. Ajouter une nouvelle règle pour le port 5800
 
-- Dans le volet de gauche, cliquez sur `Règles de trafic entrant`.
-- Dans le volet de droite, cliquez sur `Nouvelle règle...`.
-- Sélectionnez `Port` et cliquez sur `Suivant`.
-- Choisissez `TCP` et sélectionnez `Ports locaux spécifiques`. Entrez `5800` dans le champ et cliquez sur `Suivant`.
-- Sélectionnez `Autoriser la connexion` et cliquez sur `Suivant`.
-- Cochez les cases selon votre profil de réseau (`Domaine`, `Privé`, `Public`) et cliquez sur `Suivant`.
-- Donnez un nom à la règle, par exemple `Ouvrir Port 5800`, et cliquez sur `Terminer`.
+  - Dans le volet de gauche, cliquez sur `Règles de trafic entrant`.
+  - Dans le volet de droite, cliquez sur `Nouvelle règle...`.
+  - Sélectionnez `Port` et cliquez sur `Suivant`.
+  - Choisissez `TCP` et sélectionnez `Ports locaux spécifiques`. Entrez `5800` dans le champ et cliquez sur `Suivant`.
+  - Sélectionnez `Autoriser la connexion` et cliquez sur `Suivant`.
+  - Cochez les cases selon votre profil de réseau (`Domaine`, `Privé`, `Public`) et cliquez sur `Suivant`.
+  - Donnez un nom à la règle, par exemple `Ouvrir Port 5800`, et cliquez sur `Terminer`.
 
-### 3. Répéter pour le port 5900
+  #### 3. Répéter pour le port 5900
 
-- Répétez les mêmes étapes que pour le port 5800, mais entrez `5900` à la place de `5800`.
-- Nommez la règle `Ouvrir Port 5900`.
+  - Répétez les mêmes étapes que pour le port 5800, mais entrez `5900` à la place de `5800`.
+  - Nommez la règle `Ouvrir Port 5900`.
 
    
 ### Étape 5: Configuration de TightVNC 

@@ -31,9 +31,14 @@
 [Vidéo Tuto comment installer Tight VNC sur Windows Server 2022](https://openclassrooms.com/fr/courses/1733046-prenez-le-controle-a-distance-dun-poste-linux-windows-avec-vnc/5576651-installez-tightvnc-sous-windows-et-linux#/id/video_Player_2)
 ### Étape 4: Configuration et Installation de TightVNC
 
-1. [Télécharger TightVNC](https://www.tightvnc.com/download.php) : Téléchargez TightVNC pour Windows et installez-le sur votre Windows Server 2022.
+1. [Télécharger TightVNC](https://www.tightvnc.com/download.php) : Téléchargez la dernière version de TightVNC pour Windows 
+   
    ![TightVNC](images/Installation_TightVNC_1.png)
-3. **Configuration de TightVNC :** Lors de l'installation, configurez un mot de passe pour l'accès VNC. Assurez-vous que TightVNC démarre avec le système.
+
+2. Click Next. 
+
+
+   **Configuration de TightVNC :** Lors de l'installation, configurez un mot de passe pour l'accès VNC. Assurez-vous que TightVNC démarre avec le système.
 4. **Ouverture du Port VNC dans le Pare-feu :** Ouvrez le pare-feu Windows Defender. Ajoutez une règle pour autoriser les connexions entrantes sur le port 5900 (port par défaut pour VNC).
 
 ### Étape 5: Configuration de TightVNC 

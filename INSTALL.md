@@ -117,16 +117,38 @@
 
   - Appuyez sur les touches `Windows + R` pour ouvrir la boîte de dialogue "Exécuter".
   - Tapez `wf.msc` et appuyez sur `Entrée`.
-
+  
+     ![TightVNC](images/Installation_TightVNC_10.png)
+ 
   #### 2. Ajouter une nouvelle règle pour le port 5800
 
   - Dans le volet de gauche, cliquez sur `Règles de trafic entrant`.
+
+     ![TightVNC](images/Installation_TightVNC_10.png)
+
   - Dans le volet de droite, cliquez sur `Nouvelle règle...`.
+
+     ![TightVNC](images/Installation_TightVNC_10.png)
+ 
   - Sélectionnez `Port` et cliquez sur `Suivant`.
+
+     ![TightVNC](images/Installation_TightVNC_10.png)
+
   - Choisissez `TCP` et sélectionnez `Ports locaux spécifiques`. Entrez `5800` dans le champ et cliquez sur `Suivant`.
+
+     ![TightVNC](images/Installation_TightVNC_10.png)
+    
   - Sélectionnez `Autoriser la connexion` et cliquez sur `Suivant`.
+
+     ![TightVNC](images/Installation_TightVNC_10.png)
+    
   - Cochez les cases selon votre profil de réseau (`Domaine`, `Privé`, `Public`) et cliquez sur `Suivant`.
+
+     ![TightVNC](images/Installation_TightVNC_10.png)
+ 
   - Donnez un nom à la règle, par exemple `Ouvrir Port 5800`, et cliquez sur `Terminer`.
+    
+     ![TightVNC](images/Installation_TightVNC_10.png)
 
   #### 3. Répéter pour le port 5900
 

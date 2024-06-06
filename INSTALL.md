@@ -118,7 +118,7 @@
   - Appuyez sur les touches `Windows + R` pour ouvrir la boîte de dialogue "Exécuter".
   - Tapez `wf.msc` et appuyez sur `Entrée`.
   
-     ![Pare_Feu](Pare_feu1.png)
+     ![Pare_Feu](images/Pare_feu1.png)
  
   #### 2. Ajouter une nouvelle règle pour le port 5800
 
@@ -126,27 +126,27 @@
 
   - Dans le volet de droite, cliquez sur `Nouvelle règle...`.
 
-     ![Pare_Feu](Pare_feu2.png)
+     ![Pare_Feu](images/Pare_feu2.png)
  
   - Sélectionnez `Port` et cliquez sur `Suivant`.
 
-      ![Pare_Feu](Pare_feu3.png)
+      ![Pare_Feu](images/Pare_feu3.png)
 
   - Choisissez `TCP` et sélectionnez `Ports locaux spécifiques`. Entrez `5800` dans le champ et cliquez sur `Suivant`.
 
-      ![Pare_Feu](Pare_feu4.png)
+      ![Pare_Feu](images/Pare_feu4.png)
     
   - Sélectionnez `Autoriser la connexion` et cliquez sur `Suivant`.
 
-      ![Pare_Feu](Pare_feu5.png)
+      ![Pare_Feu](images/Pare_feu5.png)
     
   - Cochez les cases selon votre profil de réseau (`Domaine`, `Privé`, `Public`) et cliquez sur `Suivant`.
 
-     ![Pare_Feu](Pare_feu6.png)
+     ![Pare_Feu](images/Pare_feu6.png)
  
   - Donnez un nom à la règle, par exemple `Ouvrir Port 5800`, et cliquez sur `Terminer`.
     
-     ![Pare_Feu](Pare_feu7.png)
+     ![Pare_Feu](images/Pare_feu7.png)
 
   #### 3. Répéter pour le port 5900
 

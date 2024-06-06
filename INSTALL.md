@@ -51,11 +51,11 @@
 
    ![TightVNC](images/Installation_TightVNC_5.png)
 
-6.Cliquez sur **Next.**
+6. Cliquez sur **Next.**
 
    ![TightVNC](images/Installation_TightVNC_6.png)
 
-7.Cliquez sur **Next.**
+7. Cliquez sur **Next.**
 
    ![TightVNC](images/Installation_TightVNC_7.png)
 
@@ -63,7 +63,7 @@
 
    ![TightVNC](images/Installation_TightVNC_8.png)
 
-9.Cliquez sur **Finish.**
+9. Cliquez sur **Finish.**
 
    ![TightVNC](images/Installation_TightVNC_9.png)
 

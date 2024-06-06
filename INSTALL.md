@@ -35,11 +35,42 @@
    
    ![TightVNC](images/Installation_TightVNC_1.png)
 
-2. Click Next. 
+2. Cliquez sur **Next.**
+
+  ![TightVNC](images/Installation_TightVNC_2.png)
+
+3. Acceptez les règles et cliquez sur **Next.**
+
+  ![TightVNC](images/Installation_TightVNC_3.png)
+
+4. Cliquez sur **Custom.**
+
+  ![TightVNC](images/Installation_TightVNC_4.png)
+
+5. Cliquez sur **TightVNC server** et selectionner **Entire feature will be unavailable.**
+
+   ![TightVNC](images/Installation_TightVNC_5.png)
+
+6.Cliquez sur **Next.**
+
+   ![TightVNC](images/Installation_TightVNC_6.png)
+
+7.Cliquez sur **Next.**
+
+   ![TightVNC](images/Installation_TightVNC_7.png)
+
+8. Cliquez sur **Install.**
+
+   ![TightVNC](images/Installation_TightVNC_8.png)
+
+9.Cliquez sur **Finish.**
+
+   ![TightVNC](images/Installation_TightVNC_9.png)
 
 
-   **Configuration de TightVNC :** Lors de l'installation, configurez un mot de passe pour l'accès VNC. Assurez-vous que TightVNC démarre avec le système.
-4. **Ouverture du Port VNC dans le Pare-feu :** Ouvrez le pare-feu Windows Defender. Ajoutez une règle pour autoriser les connexions entrantes sur le port 5900 (port par défaut pour VNC).
+   
+10. **Configuration de TightVNC :** Lors de l'installation, configurez un mot de passe pour l'accès VNC. Assurez-vous que TightVNC démarre avec le système.
+11. **Ouverture du Port VNC dans le Pare-feu :** Ouvrez le pare-feu Windows Defender. Ajoutez une règle pour autoriser les connexions entrantes sur le port 5900 (port par défaut pour VNC).
 
 ### Étape 5: Configuration de TightVNC 
 

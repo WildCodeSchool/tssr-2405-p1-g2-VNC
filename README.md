@@ -28,19 +28,14 @@
 ## Rôles :
 SM : Scrum master ; PO : Product owner ; dev : équipe developpement 
 
-#### **Semaine 1 :**
+| Rôles       | Semaine 1                                                                                                                      | Semaine 2                                                                                                                  |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| **SM**      | Mina : Rédaction du guide utilisateur                                                                                          | Mohamed : Création d'un tableau de bord de pilotage des tâches via la plateforme "Jira", appui aux membres du groupe     |
+| **PO**      | Joris : Installation de VNC sur le poste client                                                                                | Ronan : Finalisation du guide administrateur, du fichier README.md, préparation du support de présentation 2              |
+| **dev**     | Ronan : Rédaction du guide administrateur                                                                                      | Mina : Finalisation du guide utilisateur                                                                                   |
+| **dev**     | Mohamed : Installation et configuration d'une VM Windows Server sur Proxmox ainsi que VNC Server                              | Joris : Installation de PuTTY pour créer une connexion SSH    
 
-- Mina (SM) : Rédaction du guide utilisateur, qui expliquera de manière claire et concise comment utiliser VNC d'un point de vue utilisateur
-- Joris (PO) : Installation de VNC sur le poste client
-- Ronan (dev) : Rédaction du guide administrateur, fournissant des instructions détaillées sur la gestion et l'administration
-- Mohamed (dev) : Installation et configuration d'une VM Windows Server sur proxmox ainsi que VNC Server
-  
-#### **Semaine 2 :**
 
-- Mina (dev) : Finalisation du guide utilisateur
-- Joris (dev) : Installation de PuTTY pour créer une connexion ssh
-- Ronan (PO) : Finalisation du guide administrateur, du fichier README.md qui introduit les membres du groupe, les rôles ect, préparation du support de présentation 2
-- Mohamed (SM) : Création d'un tableau de bord de pilotage des tâches via la plateforme "Jira", appui aux membres du groupe 
 
 ## Choix de l'OS et des logiciels :
 

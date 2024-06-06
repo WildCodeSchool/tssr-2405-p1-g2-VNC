@@ -20,34 +20,43 @@
 ### Prérequis :
 
 - Serveur Windows Server 2022 avec un environnement de bureau installé
-- Serveur SSH installé et configuré
 - Logiciel TightVNC installé sur le serveur
 - Client VNC installé sur la machine locale
 
 ### **Répartitions des rôles et des tâches :**
 
+## Rôles :
+SM : Scrum master ; PO : Product owner ; dev : équipe developpement 
+
 #### **Semaine 1 :**
 
-- Mina : Scrum master
-- Joris : Product Owner
-
+- Mina (SM) : Rédaction du guide utilisateur, qui expliquera de manière claire et concise comment utiliser VNC d'un point de vue utilisateur
+- Joris (PO) : Installation de VNC sur le poste client
+- Ronan (dev) : Rédaction du guide administrateur, fournissant des instructions détaillées sur la gestion et l'administration
+- Mohamed (dev) : Installation et configuration d'une VM Windows Server sur proxmox ainsi que VNC Server
+  
 #### **Semaine 2 :**
 
-- Mohamed : Scrum Master
-- Ronan : Product Owner
+- Mina (dev) : Finalisation du guide utilisateur
+- Joris (dev) : Installation de PuTTY pour créer une connexion ssh
+- Ronan (PO) : Finalisation du guide administrateur, du fichier README.md qui introduit les membres du groupe, les rôles ect, préparation du support de présentation 2
+- Mohamed (SM) : Création d'un tableau de bord de pilotage des tâches via la plateforme "Jira", appui aux membres du groupe 
 
-#### Répartition des tâches :
-
-- Mina : Ecrire la documentation du USER_GUIDE.md fournissant des instructions détaillé sur l'installation de VNC chez les utilisateurs
-- Joris : Installation et configuration d’une VM Windows Server , de VNC sur le serveur et d'établir une connexion SSH
-- Mohamed : Installation et configuration d’une VM Windows Server , de VNC sur le serveur et d'établir une connexion SSH
-- Ronan : Rédiger la documenation d'INSTALL.md fournissant des instructions détaillées sur la gestion et l'administration présentant le projet. Mais aussi d'un fichier README.md pour introduire les membres du groupe, les rôles dans le groupe (par sprint), les difficultés rencontrées, les solutions trouvées, les tests réalisés, etc
 ## Choix de l'OS et des logiciels :
 
 ### Proxmox :
-**Problématique : Nous ne pouvions pas faire communiquer nos machines à distance pour la virtualisation, ce qui nous empêchait de collaborer efficacement sur notre projet**
 
-**Solution : Proxmox, une plateforme de virtualisation open source, permet de gérer des machines virtuelles sur un serveur dédié. Grâce à Proxmox, nous avons pu collaborer et travailler ensemble sur la même machine virtuelle, facilitant ainsi l'avancement de notre projet**
+**Avantages :**
+
+- Hyperviseur de niveau 1, offrant des performances optimales pour la gestion des machines virtuelles, ainsi
+Nous avons pu faire communiquer nos deux machines virtuelles sur un même réseau local, ce qui a facilité la prise en main à distance TightVNC
+
+- Proxmox, une plateforme de virtualisation open source, permet plusieurs connexions simultanées à des machines virtuelles sur un serveur dédié, facilitant ainsi la collaboration et le travail d'équipe sur la même machine virtuelle.
+
+**Inconvénients :**
+
+- Nécessite une configuration initiale approfondie et une certaine courbe d'apprentissage pour les nouveaux utilisateurs.
+- Peut être complexe à gérer sans une connaissance préalable des systèmes de virtualisation et des réseaux.
 
 ### Debian :
 
@@ -117,7 +126,7 @@
 
 #### Problèmes recontrés :
 
-- Problèmes de Compatibilité : Différentes versions de VNC (RealVNC vs Tight Vnc) et tight vnc que partie serveur 
+- Problèmes de Compatibilité : Différentes versions de VNC (RealVNC vs Tight Vnc)  
 - Configuration du Pare-feu : Bloquage des ports nécessaires par le pare-feu, empêchant la connexion VNC
 - Problèmes de Sécurité : Connexion non sécurisée (non chiffrée), exposant le trafic VNC à des attaques potentielles
 

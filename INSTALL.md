@@ -64,19 +64,19 @@
    
    ![TightVNC](images/Installation_TightVNC_1.png)
 
-2. Cliquez sur **Next.**
+2. Cliquez sur `Next`.
 
   ![TightVNC](images/Installation_TightVNC_2.png)
 
-3. Acceptez les règles et cliquez sur **Next.**
+3. Acceptez les règles et cliquez sur `Next`.
 
   ![TightVNC](images/Installation_TightVNC_3.png)
 
-4. Cliquez sur **Custom.**
+4. Cliquez sur `Custom`.
 
   ![TightVNC](images/Installation_TightVNC_4.png)
 
-5. Cliquez sur **TightVNC server** et selectionner **Entire feature will be unavailable.**
+5. Cliquez sur `TightVNC server`* et selectionner `Entire feature will be unavailable`.
 
    ![TightVNC](images/Installation_TightVNC_5.png)
 

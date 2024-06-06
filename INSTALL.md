@@ -107,7 +107,7 @@
 
 - **Le second mot de passe protège** la configuration et le fonctionnement de TightVNC sur cet ordinateur. Toute modification de la configuration ou toute opération sur le serveur TightVNC devra être validée avec ce mot de passe.
 
-   ![TightVNC](images/ Installation_TightVNC_10.png)
+   ![TightVNC](images/Installation_TightVNC_10.png)
 
 
 ## Étape 5: Ouvrir les ports VNC (5800 et 5900) dans Windows Defender

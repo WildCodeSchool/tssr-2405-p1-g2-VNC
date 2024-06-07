@@ -67,6 +67,7 @@ Double-clic sur l'icône de lancement située sur le bureau
 
 6. **Gestion des couleurs** : Ajustez méticuleusement les paramètres relatifs à la gestion des couleurs selon vos préférences. Vous pouvez choisir entre une meilleure qualité d'image ou davantage de performances, en fonction de vos impératifs.
 
+[](https://github.com/WildCodeSchool/tssr-2405-p1-g2-VNC/blob/main/images/guide_options.png)
 7. **Déconnexion et gestion des sessions** :
     - **Déconnexion** : Pour mettre fin à votre session sur l'ordinateur distant, veuillez cliquer sur "Déconnecter" dans le menu TightVNC.
     - **Gestion des sessions** : TightVNC offre la possibilité de gérer plusieurs sessions simultanément. Il est possible de naviguer entre les différentes sessions ouvertes en utilisant les onglets situés en haut de la fenêtre.

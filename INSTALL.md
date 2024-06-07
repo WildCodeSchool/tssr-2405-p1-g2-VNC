@@ -58,7 +58,7 @@
 
 ## Partie Client : Installation de TightVNC et désactivation du Pare-feu
 
-## Étape 1 : Configuration et Installation de TightVNC
+### Étape 1 : Configuration et Installation de TightVNC
 
 1. [Télécharger TightVNC](https://www.tightvnc.com/download.php) : Téléchargez la dernière version de TightVNC pour Windows 
    
@@ -96,16 +96,17 @@
 
    ![TightVNC](images/Installation_TightVNC_9.png)
 
-## Étape 2: Désactiver les Pare-feu
+### Étape 2: Désactiver les Pare-feu
   
   ### Désactiver les Pare-feu :
 
    ![TightVNC](images/pare_feu_client.png)
 
+#### **Voilà tout est installé pour la partie client ! Si vous avez besoin d'installer TightVNC sur votre serveur, il y a l'explication dans la suite du tuto ! **
 
 ## Partie Serveur - Installation de Windows Server 2022 avec TightVNC 
 
-## Étape 3: Configuration et Installation de TightVNC
+### Étape 3: Configuration et Installation de TightVNC
 
 1. [Télécharger TightVNC](https://www.tightvnc.com/download.php) : Téléchargez la dernière version de TightVNC pour Windows 
    
@@ -160,14 +161,14 @@
    ![TightVNC](images/install_server5.png)
 
     
-## Étape 5: Désactiver les Pare-feu
+### Étape 5: Désactiver les Pare-feu
   
   ### 1. Désactiver les Pare-feu :
 
    ![Pare_Feu](images/Pare_feu_server.png)
    
  
-#### **Voilà tout est installé , normalament si vous avez suivi toutes les étapes vous avez réussi votre installation !**
+#### **Voilà tout est installé , normalament si vous avez suivi toutes les étapes vous avez réussi votre installation de TightVNC sur un serveur !**
    
 
 

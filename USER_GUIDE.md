@@ -112,7 +112,7 @@ Double-clic sur l'icône de lancement située sur le bureau
 
 En suivant ces étapes de dépannage, vous devriez être en mesure de résoudre la plupart des problèmes courants rencontrés lors de l'utilisation de TightVNC. Si des difficultés persistent, nous vous recommandons de consulter la documentation associée à TightVNC ou de contacter le support technique pour obtenir une assistance supplémentaire.
 
-### 7. Problème d'authentification : Mot de passe refusé*
+### 7. Problème d'authentification : Mot de passe refusé
 
 - Scénario : Notification d'erreur signalant "Échec de l'authentification".
 - Solutions : Vérifiez le mot de passe : Veuillez vous assurer que le mot de passe utilisé est correct.

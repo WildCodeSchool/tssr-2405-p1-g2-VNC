@@ -57,7 +57,7 @@ SM : Scrum master / PO : Product owner / dev : équipe developpement
 #### Tests de performances :
 
 - Mesure de la latence de connexion et du temps de réponse lors de l'utilisation de l'application VNC
-- Vérification de la sécurisation de la connexion via SSH
+- Vérification de la sécurisation de la connexion via SSH (PuTTY) sur un poste client vers notre serveur 
 
 #### Tests de compatibilités : 
 
@@ -68,7 +68,7 @@ SM : Scrum master / PO : Product owner / dev : équipe developpement
 
 - Connexion Établie : Connexion VNC réussie après ouverture des ports nécessaires et configuration appropriée du serveur et du client
 - Bonne Performance : Latence acceptable et bonne fluidité d'affichage sur des réseaux locaux
-- Sécurité Améliorée : Connexion sécurisée via un tunnel SSH, empêchant les interceptions non autorisées
+- Sécurité Améliorée : Connexion sécurisée via SSH PuTTY, empêchant les interceptions non autorisées en ligne de commande mais pas en interface graphique, la connexion SSH est établie mais son lancement simultané avec TightVNC ne fonctionne pas
 
 #### Suggestions d’Améliorations Futures :
 

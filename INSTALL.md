@@ -142,9 +142,9 @@
 
    ![TightVNC](images/install_server1.png)
 
-9. **- Le premier mot de passe va permettre de sécuriser la prise de contrôle à distance sur ce poste. Chaque client VNC souhaitant s’y connecter devra connaître ce mot de passe ;**
+9. **Le premier mot de passe va permettre de sécuriser la prise de contrôle à distance sur ce poste. Chaque client VNC souhaitant s’y connecter devra connaître ce mot de passe ;**
 
-   **- Le second permet de sécuriser le comportement et la configuration de TighVNC sur ce poste. Chaque modification dans la configuration ou l’exécution du serveur TightVNC devra être confirmée avec ce mot de passe.**
+   **Le second permet de sécuriser le comportement et la configuration de TighVNC sur ce poste. Chaque modification dans la configuration ou l’exécution du serveur TightVNC devra être confirmée avec ce mot de passe.**
 
    ![TightVNC](images/Installation_TightVNC_10.png)
 

@@ -43,7 +43,7 @@ Pour accéder à votre serveur TightVNC, veuillez suivre les directives ci-desso
 
 5. **Entrer le mot de passe :
 
-Une fois que vous avez cliqué sur "Connect", une fenêtre vous demandera de saisir le mot de passe. Entrez le mot de passe fourni par votre administrateur : Azerty1*.
+    - Une fois que vous avez cliqué sur "Connect", une fenêtre vous demandera de saisir le mot de passe. Entrez le mot de passe fourni par votre administrateur : Azerty1*.
 
 6. **Vérification du port** : Veillez à utiliser le même port que celui paramétré sur votre serveur TightVNC. Par défaut, la requête client est envoyée sur le port 5900 ; toutefois, si vous avez défini un port différent, veuillez le spécifier dans le champ approprié.
 

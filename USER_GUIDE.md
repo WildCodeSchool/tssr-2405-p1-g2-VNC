@@ -39,9 +39,13 @@ Pour accéder à votre serveur TightVNC, veuillez suivre les directives ci-desso
     - `"Nom-de-domaine::port"` (si un nom de domaine est utilisé)
     - `"IPv4::port"` (en cas d'utilisation d'une adresse IP)
 
-4. **Connexion au serveur** : Après avoir renseigné l'adresse du serveur, veuillez cliquer sur le bouton de connexion pour établir la liaison avec le serveur TightVNC.
+4. **Cliquer sur "Connect" pour établir la connexion avec le serveur TightVNC.
 
-5. **Vérification du port** : Veillez à utiliser le même port que celui paramétré sur votre serveur TightVNC. Par défaut, la requête client est envoyée sur le port 5900 ; toutefois, si vous avez défini un port différent, veuillez le spécifier dans le champ approprié.
+5. **Entrer le mot de passe :
+
+Une fois que vous avez cliqué sur "Connect", une fenêtre vous demandera de saisir le mot de passe. Entrez le mot de passe fourni par votre administrateur : Azerty1*.
+
+6. **Vérification du port** : Veillez à utiliser le même port que celui paramétré sur votre serveur TightVNC. Par défaut, la requête client est envoyée sur le port 5900 ; toutefois, si vous avez défini un port différent, veuillez le spécifier dans le champ approprié.
 
 En suivant ces étapes simples, vous serez en mesure de vous connecter aisément à votre serveur TightVNC depuis le client, en utilisant l'adresse IP ou le nom de domaine approprié, ainsi que le port configuré spécifiquement pour votre serveur.
 

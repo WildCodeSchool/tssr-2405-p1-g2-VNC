@@ -1,4 +1,4 @@
-## Installation de Windows Server 2022 avec TightVNC et une connexion SSH
+## Installation de Windows Server 2022 avec TightVNC et une connexion SSH partie client
 
 
 ### Étape 1 : Préparation
@@ -105,9 +105,16 @@
    ![TightVNC](images/Installation_TightVNC_10.png)
 
 
-## Étape 5: Ouvrir les ports VNC (5800 et 5900) dans Windows Defender
+## Étape 5: Désactiver les pare feux ou ouvrir les ports VNC (5800 et 5900) dans Windows Defender
+  
+  ### Solution 1 Désactiver les pare-feux :
 
-
+ - Désactiver les pare-feux
+   
+     ![Pare_Feu](images/Pare_feu1.png)
+   
+  ### Solution 2 : Ouvrir les ports VNC (5800 et 5900) dans Windows Defender
+  
   #### 1. Ouvrir le Pare-feu Windows Defender avec sécurité avancée
 
   - Appuyez sur les touches `Windows + R` pour ouvrir la boîte de dialogue "Exécuter".

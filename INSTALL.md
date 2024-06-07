@@ -169,7 +169,7 @@
 
    ![Pare_Feu](images/Pare_feu_server.png)
 
- - **Note : Il est nécessaire de faire cela afin de pouvoir ouvrir les ports 5800 et 5900 pour pouvoir contrôler à distance les ordinateurs.**
+ - **Note : Il est nécessaire de faire cela afin de pouvoir ouvrir les ports 5800 et 5900 pour pouvoir contrôler à distance les ordinateurs clients.**
  
 #### Voilà tout est installé , normalament si vous avez suivi toutes les étapes vous avez réussi votre installation de TightVNC sur un serveur !
    

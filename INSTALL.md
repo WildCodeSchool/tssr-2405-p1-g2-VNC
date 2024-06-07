@@ -1,4 +1,4 @@
-## *OPTIONNEL* Préparation de la VM sur Proxmox (Serveur et Client) 
+## *-OPTIONNEL-* Préparation de la VM sur Proxmox (Serveur et Client) 
 
 ### Partie Client et Serveur
 

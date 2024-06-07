@@ -31,7 +31,7 @@ Pour accéder à votre serveur TightVNC, veuillez suivre les directives ci-desso
 
 1. **Lancement du Client TightVNC** : Démarrez l'application Client TightVNC sur votre ordinateur. L'interface affichée devrait être similaire à celle-ci :
 
-![Premiere photo ici](#)
+![](https://github.com/WildCodeSchool/tssr-2405-p1-g2-VNC/blob/main/images/vnc-prise-main-distance-TightVNC.png)
 
 2. **Cliquer sur connexion puis insérer le mot de passe** : `Azerty1*` (défini par votre administrateur)
 

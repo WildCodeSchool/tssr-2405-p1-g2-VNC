@@ -94,15 +94,14 @@
 
    ![TightVNC](images/Installation_TightVNC_9.png)
 
-## Étape 2: Désactiver les pare feux 
+## Étape 2: Désactiver les Pare-feu
   
-  ### Désactiver les pare-feux :
+  ### Désactiver les Pare-feu :
 
    ![TightVNC](images/pare_feu_client.png)
 
+
 ## Partie Serveur - Installation de Windows Server 2022 avec TightVNC 
-
-
 
 ## Étape 3: Configuration et Installation de TightVNC
 
@@ -144,7 +143,7 @@
 
    ![TightVNC](images/Installation_TightVNC_10.png)
 
-   **Voilà tout est installé , nous allons vérifier si l'installation s'est bien effectué !**
+   **Nous allons vérifier si l'installation s'est bien effectué !**
 
 - Normalement, vous devriez voir un icône en plus de VNC dans la barre des tâches et dans les raccourcis Windows
 
@@ -166,7 +165,7 @@
    ![Pare_Feu](images/Pare_feu_server.png)
    
  
-
+#### **Voilà tout est installé , normalament si vous avez suivi toutes les étapes vous avez réussi votre installation !**
    
 
 

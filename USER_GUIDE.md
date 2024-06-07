@@ -118,6 +118,5 @@ En suivant ces étapes de dépannage, vous devriez être en mesure de résoudre 
 
 - Scénario : Notification d'erreur signalant "Échec de l'authentification".
 - Solutions : Vérifiez le mot de passe : Veuillez vous assurer que le mot de passe utilisé est correct.
-  
-Réinitialisez le mot de passe VNC : Au niveau du serveur, veuillez réinitialiser le mot de passe VNC et tenter une nouvelle connexion.
+- Réinitialisez le mot de passe VNC : Au niveau du serveur, veuillez réinitialiser le mot de passe VNC et tenter une nouvelle connexion.
 

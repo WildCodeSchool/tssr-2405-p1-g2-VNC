@@ -54,9 +54,11 @@ Double-clic sur l'icône de lancement située sur le bureau
 ![](https://github.com/WildCodeSchool/tssr-2405-p1-g2-VNC/blob/main/images/tight_vnc.png)
 
 ### Utilisation Avancée 
-    -Appuyer sur Option :
+
+Veuillez appuyer sur la touche Option comme indiqué dans l'image ci-dessous pour accéder aux options
     
-![] (https://github.com/WildCodeSchool/tssr-2405-p1-g2-VNC/blob/main/images/Guide_vnc.png)
+![] (https://github.com/WildCodeSchool/tssr-2405-p1-g2-VNC/blob/main/images/Guide_vnc.png).
+![](https://github.com/WildCodeSchool/tssr-2405-p1-g2-VNC/blob/main/images/guide_options.png)
 
 1. **Qualité de l'affichage** : Veuillez recourir à l'option "Qualité de l'image" pour ajuster avec précision la qualité de l'affichage selon vos exigences. Vous avez le choix entre différentes valeurs telles que "Élevée", "Moyenne" ou "Basse", en fonction de la qualité de votre connexion.
 
@@ -70,7 +72,7 @@ Double-clic sur l'icône de lancement située sur le bureau
 
 6. **Gestion des couleurs** : Ajustez méticuleusement les paramètres relatifs à la gestion des couleurs selon vos préférences. Vous pouvez choisir entre une meilleure qualité d'image ou davantage de performances, en fonction de vos impératifs.
 
-![](https://github.com/WildCodeSchool/tssr-2405-p1-g2-VNC/blob/main/images/guide_options.png)
+
 
 7. **Déconnexion et gestion des sessions** :
     - **Déconnexion** : Pour mettre fin à votre session sur l'ordinateur distant, veuillez cliquer sur "Déconnecter" dans le menu TightVNC.

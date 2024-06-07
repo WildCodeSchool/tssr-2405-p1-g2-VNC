@@ -47,7 +47,7 @@ En suivant ces étapes simples, vous serez en mesure de vous connecter aisément
 
 Double-clic sur l'icône de lancement située sur le bureau 
 
-![Deuxieme photo ici](#)
+![](https://github.com/WildCodeSchool/tssr-2405-p1-g2-VNC/blob/main/images/tight_vnc.png)
 
 ### Utilisation Avancée 
 

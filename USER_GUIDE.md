@@ -111,3 +111,9 @@ Double-clic sur l'icône de lancement située sur le bureau
 - Si des problèmes de compatibilité surviennent avec certaines applications ou environnements, assurez-vous d'utiliser la version la plus récente de TightVNC et d'avoir installé toutes les mises à jour disponibles.
 
 En suivant ces étapes de dépannage, vous devriez être en mesure de résoudre la plupart des problèmes courants rencontrés lors de l'utilisation de TightVNC. Si des difficultés persistent, nous vous recommandons de consulter la documentation associée à TightVNC ou de contacter le support technique pour obtenir une assistance supplémentaire.
+
+### 7. Problème d'authentification : Mot de passe refusé
+
+    -Scénario : Message d'erreur indiquant "Authentication failure".
+    -Solutions : Vérifier le mot de passe : Assurez-vous que le mot de passe utilisé est correct.
+    -Réinitialiser le mot de passe VNC : Sur le serveur, réinitialisez le mot de passe VNC et essayez de vous reconnecter.

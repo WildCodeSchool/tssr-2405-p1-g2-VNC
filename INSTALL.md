@@ -111,7 +111,7 @@
 
  - Désactiver les pare-feux
    
-     ![Pare_Feu](images/Pare_feu1.png)
+     ![Pare_Feu](images/Pare_feu_server.png)
    
   ### Solution 2 : Ouvrir les ports VNC (5800 et 5900) dans Windows Defender
   

@@ -140,8 +140,21 @@
 
    ![TightVNC](images/Installation_TightVNC_9.png)
 
+11. Cliquez sur `Finish`.
 
+   ![TightVNC](images/Installation_TightVNC_9.png)
 
+12. Cliquez sur `Finish`.
+
+   ![TightVNC](images/Installation_TightVNC_9.png)
+
+12. Cliquez sur `Finish`.
+
+   ![TightVNC](images/Installation_TightVNC_9.png)
+
+12. Cliquez sur `Finish`.
+
+    
 ## Étape 5: Désactiver les pare feux ou ouvrir les ports VNC (5800 et 5900) dans Windows Defender
   
   ### Solution 1 Désactiver les Pare-feu :

@@ -45,6 +45,7 @@
 
  - Désactiver les pare-feux
 
+   ![TightVNC](images/pare_feu_client.png)
 
 ## Partie Serveur - Installation de Windows Server 2022 avec TightVNC et une connexion SSH 
 

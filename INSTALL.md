@@ -1,19 +1,19 @@
 
-## Préparation de la VM sur Proxmox
+## Préparation de la VM sur Proxmox ( Serveur et Client )
 
-1. [Télécharger l'ISO de Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows Server 2022.
+1. [Télécharger l'ISO de Windows 10](https://www.microsoft.com/fr-fr/software-download/windows10/) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows 10.
+   [Télécharger l'ISO de Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows Server 2022.
 2. Ouvrir Proxmox
 3. Ayez un compte utilisateur avec les droits nécessaires pour créer des VM sur Proxmox
 
 ### Étapes 2 : Création de la VM Windows Server 2022
-
 
 #### 1. Télécharger l'ISO sur Proxmox
 
 - Connectez-vous à l'interface web de Proxmox.
 - Accédez à `Datacenter` > `pve` (votre nœud Proxmox) > `Disques locaux` (par exemple, `local` ou `local-lvm`).
 - Cliquez sur l'onglet `Content` puis sur `Upload`.
-- Sélectionnez l'image ISO de Windows Server 2022 et téléchargez-la.
+- Sélectionnez l'image ISO de Windows 10 (client) ou Windows Server 2022 (serveur) et téléchargez-la.
 
 #### 2. Créer une nouvelle VM
 
@@ -22,7 +22,7 @@
 - **General** :
   - Donnez un nom à votre VM.
 - **OS** :
-  - Sélectionnez le stockage où se trouve votre ISO et choisissez l'ISO de Windows Server 2022.
+  - Sélectionnez le stockage où se trouve votre ISO et choisissez l'ISO de Windows 10 ou Windows Server 2022.
   - Choisissez `Microsoft Windows` comme type d'OS.
 - **System** :
   - Gardez les paramètres par défaut ou ajustez selon vos besoins.
@@ -40,16 +40,16 @@
 - Sélectionnez la VM nouvellement créée dans le volet de gauche.
 - Cliquez sur `Start` pour démarrer la VM.
 - Cliquez sur `Console` pour accéder à la console de la VM.
-- Suivez les étapes de l'assistant d'installation de Windows Server 2022.
+- Suivez les étapes de l'assistant d'installation de Windows 10 ou Windows Server 2022.
   - Choisissez la langue, le format de l'heure, et la méthode de clavier.
   - Cliquez sur `Install Now`.
   - Entrez la clé de produit si nécessaire.
-  - Sélectionnez la version de Windows Server 2022 à installer.
+  - Sélectionnez la version de Windows 10 ou Windows Server 2022 à installer.
   - Acceptez les termes de licence.
   - Choisissez `Custom: Install Windows only (advanced)`.
-  - Sélectionnez le disque et cliquez sur `Next` pour installer Windows Server 2022.
+  - Sélectionnez le disque et cliquez sur `Next` pour installer Windows 10 ou Windows Server 2022.
 
-#### 4. Finaliser l'installation de Windows Server 2022
+#### 4. Finaliser l'installation de Windows 10 ou Windows Server 2022
 
 - Complétez l'installation de Windows Server en suivant les instructions à l'écran.
 - Configurez les paramètres initiaux, tels que le mot de passe administrateur.

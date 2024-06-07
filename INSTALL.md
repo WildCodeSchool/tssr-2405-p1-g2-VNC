@@ -46,7 +46,7 @@
  - Désactiver les pare-feux
 
 
-## Installation de Windows Server 2022 avec TightVNC et une connexion SSH 
+## Partie Serveur - Installation de Windows Server 2022 avec TightVNC et une connexion SSH 
 
 ### Étape 1 : Préparation
 
@@ -56,8 +56,6 @@
 
 ### Étapes 2 : Création de la VM Windows Server 2022
 
-
-### Étapes
 
 #### 1. Télécharger l'ISO sur Proxmox
 

@@ -130,30 +130,35 @@
 
 7. Cliquez sur `Next`.
 
-   ![TightVNC](images/Installation_TightVNC_7.png)
+   ![TightVNC](images/install_server.png)
 
-8. Cliquez sur `Install`.
+8. Cliquez sur `Oui`.
 
-   ![TightVNC](images/Installation_TightVNC_8.png)
+   ![TightVNC](images/install_server1.png)
 
-9. Cliquez sur `Finish`.
+9. **- Le premier mot de passe va permettre de sécuriser la prise de contrôle à distance sur ce poste. Chaque client VNC souhaitant s’y connecter devra connaître ce mot de passe ;**
 
-   ![TightVNC](images/Installation_TightVNC_9.png)
+   **- Le second permet de sécuriser le comportement et la configuration de TighVNC sur ce poste. Chaque modification dans la configuration ou l’exécution du serveur TightVNC devra être confirmée avec ce mot de passe.**
 
-11. Cliquez sur `Finish`.
+   ![TightVNC](images/Installation_TightVNC_2)
 
-   ![TightVNC](images/Installation_TightVNC_9.png)
+   Voilà tout est installé , nous allons vérifier si l'installation s'est bien effectué
 
-12. Cliquez sur `Finish`.
+Normalement, vous devriez voir un icône en plus de VNC dans la barre des tâches et dans les raccourcis Windows
 
-   ![TightVNC](images/Installation_TightVNC_9.png)
+   ![TightVNC](images/install_server2.png)
 
-12. Cliquez sur `Finish`.
+9. Cliquez sur `Next`.
 
-   ![TightVNC](images/Installation_TightVNC_9.png)
+   ![TightVNC](images/install_server3.png)
 
-12. Cliquez sur `Finish`.
+9. Cliquez sur `Next`.
 
+   ![TightVNC](images/install_server4.png)
+
+9. Cliquez sur `Next`.
+
+   ![TightVNC](images/install_server5.png)
     
 ## Étape 5: Désactiver les pare feux ou ouvrir les ports VNC (5800 et 5900) dans Windows Defender
   

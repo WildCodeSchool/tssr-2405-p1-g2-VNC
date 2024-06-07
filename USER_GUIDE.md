@@ -11,8 +11,6 @@ TightVNC se présente comme une application puissante et flexible dédiée au co
 
 Le système TightVNC repose essentiellement sur deux composants majeurs : le serveur TightVNC et le client TightVNC. Le serveur TightVNC trouve sa place sur l'ordinateur objet du contrôle, tandis que le client TightVNC est employé pour y accéder à distance. L'objectif principal de TightVNC consiste à faciliter la gestion et la surveillance distantes des systèmes informatiques, tout en assurant une connexion stable et sécurisée dès le démarrage du système.
 
-Les étapes suivantes exposent en détail le processus de configuration et d'utilisation de TightVNC en tant que "Service Système", garantissant ainsi la disponibilité continue du serveur TightVNC dès le démarrage de l'ordinateur.
-
 ### Objectifs Principaux: 
 
 - **Assurer la Disponibilité Permanente** : En mettant en place TightVNC en tant que "Service Système", l'accès au serveur est assuré dès le démarrage de l'ordinateur, ce qui revêt une importance cruciale pour la maintenance et le support continu. 

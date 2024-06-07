@@ -1,9 +1,9 @@
 ## Préparation de la VM sur Proxmox (Serveur et Client)
 
-### Partie Client
+### Partie Client et Serveur
+
 - [Télécharger l'ISO de Windows 10](https://www.microsoft.com/fr-fr/software-download/windows10/) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows 10.
 
-### Partie Serveur
 - [Télécharger l'ISO de Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows Server 2022.
 
 - Ouvrez Proxmox.

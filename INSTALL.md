@@ -1,12 +1,14 @@
 
 ## Préparation de la VM sur Proxmox ( Serveur et Client )
 
-1. [Télécharger l'ISO de Windows 10](https://www.microsoft.com/fr-fr/software-download/windows10/) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows 10.
-   [Télécharger l'ISO de Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows Server 2022.
+1. - [Télécharger l'ISO de Windows 10](https://www.microsoft.com/fr-fr/software-download/windows10/) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows 10.
+   - [Télécharger l'ISO de Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows Server 2022.
+
 2. Ouvrir Proxmox
+
 3. Ayez un compte utilisateur avec les droits nécessaires pour créer des VM sur Proxmox
 
-### Étapes 2 : Création de la VM Windows Server 2022
+### Création de la VM Windows Server 2022
 
 #### 1. Télécharger l'ISO sur Proxmox
 

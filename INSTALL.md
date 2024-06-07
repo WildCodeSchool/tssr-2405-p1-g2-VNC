@@ -142,7 +142,7 @@
 
    ![TightVNC](images/Installation_TightVNC_10.png)
 
-   Voilà tout est installé , nous allons vérifier si l'installation s'est bien effectué
+   **Voilà tout est installé , nous allons vérifier si l'installation s'est bien effectué !**
 
 Normalement, vous devriez voir un icône en plus de VNC dans la barre des tâches et dans les raccourcis Windows
 
@@ -157,7 +157,7 @@ De plus, si vous avez choisi l'option d'installation de TightVNC en tant que ser
    ![TightVNC](images/install_server5.png)
 
     
-## Étape 5: Désactiver les pare feux ou ouvrir les ports VNC (5800 et 5900) dans Windows Defender
+## Étape 5: Désactiver les pare feux **ou** ouvrir les ports VNC (5800 et 5900) dans Windows Defender
   
   ### Solution 1 Désactiver les Pare-feu :
 

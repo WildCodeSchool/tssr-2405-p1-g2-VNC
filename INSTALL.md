@@ -144,7 +144,7 @@
 
    **Voilà tout est installé , nous allons vérifier si l'installation s'est bien effectué !**
 
-Normalement, vous devriez voir un icône en plus de VNC dans la barre des tâches et dans les raccourcis Windows
+- Normalement, vous devriez voir un icône en plus de VNC dans la barre des tâches et dans les raccourcis Windows
 
    ![TightVNC](images/install_server3.png)
 
@@ -152,14 +152,14 @@ Normalement, vous devriez voir un icône en plus de VNC dans la barre des tâche
    ![TightVNC](images/install_server4.png)
 
 
-De plus, si vous avez choisi l'option d'installation de TightVNC en tant que service, vous trouverez la ligne correspondante dans le menu des services de Windows, comme suit :
+- De plus, si vous avez choisi l'option d'installation de TightVNC en tant que service, vous trouverez la ligne correspondante dans le menu des services de Windows, comme suit :
 
    ![TightVNC](images/install_server5.png)
 
     
 ## Étape 5: Désactiver les Pare-feu
   
-  ### Désactiver les Pare-feu :
+  ### 1. Désactiver les Pare-feu :
 
    ![Pare_Feu](images/Pare_feu_server.png)
    

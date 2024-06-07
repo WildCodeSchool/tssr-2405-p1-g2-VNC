@@ -8,7 +8,7 @@
 
  - Ayez un compte utilisateur avec les droits nécessaires pour créer des VM sur Proxmox
 
-### Création de la VM Windows Server 2022
+### Création de la VM Windows 10 ou Windows Server 2022 sur Proxmox
 
 #### 1. Télécharger l'ISO sur Proxmox
 

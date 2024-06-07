@@ -120,13 +120,13 @@
 
   ![TightVNC](images/Installation_TightVNC_4.png)
 
-5. Cliquez sur `TightVNC server` et selectionner `Next`.
+5. Cliquez sur `TightVNC server` 
 
    ![TightVNC](images/Installation_TightVNC_11.png)
 
 6. Cliquez sur `Next`.
 
-   ![TightVNC](images/Installation_TightVNC_6.png)
+   ![TightVNC](images/Installation_TightVNC_11.png)
 
 7. Cliquez sur `Next`.
 

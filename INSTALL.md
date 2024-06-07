@@ -120,9 +120,9 @@
 
   ![TightVNC](images/Installation_TightVNC_4.png)
 
-5. Cliquez sur `TightVNC server`* et selectionner `Entire feature will be unavailable`.
+5. Cliquez sur `TightVNC server` et selectionner `Next`.
 
-   ![TightVNC](images/Installation_TightVNC_10.png)
+   ![TightVNC](images/Installation_TightVNC_11.png)
 
 6. Cliquez sur `Next`.
 

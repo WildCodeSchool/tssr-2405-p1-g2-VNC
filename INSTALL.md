@@ -165,47 +165,7 @@ De plus, si vous avez choisi l'option d'installation de TightVNC en tant que ser
    
      ![Pare_Feu](images/Pare_feu_server.png)
    
-  ### Solution 2 : Ouvrir les ports VNC (5800 et 5900) dans Windows Defender
-  
-  #### 1. Ouvrir le Pare-feu Windows Defender avec sécurité avancée
-
-  - Appuyez sur les touches `Windows + R` pour ouvrir la boîte de dialogue "Exécuter".
-  - Tapez `wf.msc` et appuyez sur `Entrée`.
-  
-     ![Pare_Feu](images/Pare_feu1.png)
  
-  #### 2. Ajouter une nouvelle règle pour le port 5800
-
-  - Dans le volet de gauche, cliquez sur `Règles de trafic entrant`.
-
-  - Dans le volet de droite, cliquez sur `Nouvelle règle...`.
-
-     ![Pare_Feu](images/Pare_feu2.png)
- 
-  - Sélectionnez `Port` et cliquez sur `Suivant`.
-
-      ![Pare_Feu](images/Pare_feu3.png)
-
-  - Choisissez `TCP` et sélectionnez `Ports locaux spécifiques`. Entrez `5800` dans le champ et cliquez sur `Suivant`.
-
-      ![Pare_Feu](images/Pare_feu4.png)
-    
-  - Sélectionnez `Autoriser la connexion` et cliquez sur `Suivant`.
-
-      ![Pare_Feu](images/Pare_feu5.png)
-    
-  - Cochez les cases selon votre profil de réseau (`Domaine`, `Privé`, `Public`) et cliquez sur `Suivant`.
-
-     ![Pare_Feu](images/Pare_feu6.png)
- 
-  - Donnez un nom à la règle, par exemple `Ouvrir Port 5800`, et cliquez sur `Terminer`.
-    
-     ![Pare_Feu](images/Pare_feu7.png)
-
-  #### 3. Répéter pour le port 5900
-
-  - Répétez les mêmes étapes que pour le port 5800, mais entrez `5900` à la place de `5800`.
-  - Nommez la règle `Ouvrir Port 5900`.
 
    
 

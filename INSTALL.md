@@ -106,7 +106,7 @@
 
 #### Voilà, tout est installé pour la partie client ! Si vous avez besoin d'installer TightVNC sur votre serveur, il y a l'explication dans la suite du tuto !
 
-## Partie Serveur - Installation de Windows Server 2022 avec TightVNC 
+## Partie Serveur - Installation de TightVNC sur Windows Server 2022
 
 ### Étape 3: Configuration et Installation de TightVNC
 

@@ -1,5 +1,52 @@
-## Installation de Windows Server 2022 avec TightVNC et une connexion SSH partie client
+## Partie Client : Installation de TightVNC et désactivation de pare-feu
 
+
+## Étape 1 : Configuration et Installation de TightVNC
+
+1. [Télécharger TightVNC](https://www.tightvnc.com/download.php) : Téléchargez la dernière version de TightVNC pour Windows 
+   
+   ![TightVNC](images/Installation_TightVNC_1.png)
+
+2. Cliquez sur `Next`.
+
+  ![TightVNC](images/Installation_TightVNC_2.png)
+
+3. Acceptez les règles et cliquez sur `Next`.
+
+  ![TightVNC](images/Installation_TightVNC_3.png)
+
+4. Cliquez sur `Custom`.
+
+  ![TightVNC](images/Installation_TightVNC_4.png)
+
+5. Cliquez sur `TightVNC server`* et selectionner `Entire feature will be unavailable`.
+
+   ![TightVNC](images/Installation_TightVNC_5.png)
+
+6. Cliquez sur `Next`.
+
+   ![TightVNC](images/Installation_TightVNC_6.png)
+
+7. Cliquez sur `Next`.
+
+   ![TightVNC](images/Installation_TightVNC_7.png)
+
+8. Cliquez sur `Install`.
+
+   ![TightVNC](images/Installation_TightVNC_8.png)
+
+9. Cliquez sur `Finish`.
+
+   ![TightVNC](images/Installation_TightVNC_9.png)
+
+## Étape 2: Désactiver les pare feux ou ouvrir les ports VNC (5800 et 5900) dans Windows Defender
+  
+  ### Solution 1 Désactiver les pare-feux :
+
+ - Désactiver les pare-feux
+
+
+## Installation de Windows Server 2022 avec TightVNC et une connexion SSH 
 
 ### Étape 1 : Préparation
 
@@ -96,13 +143,6 @@
 
    ![TightVNC](images/Installation_TightVNC_9.png)
 
-10. Le panneau suivant joue un rôle crucial pour assurer la sécurité de l'installation de TightVNC sur cet ordinateur. Il est nécessaire de définir deux mots de passe distincts :
-
-- **Le premier mot de passe** garantit la sécurité de l'accès à distance à cet ordinateur. Tout client VNC désirant se connecter devra connaître ce mot de passe.
-
-- **Le second mot de passe protège** la configuration et le fonctionnement de TightVNC sur cet ordinateur. Toute modification de la configuration ou toute opération sur le serveur TightVNC devra être validée avec ce mot de passe.
-
-   ![TightVNC](images/Installation_TightVNC_10.png)
 
 
 ## Étape 5: Désactiver les pare feux ou ouvrir les ports VNC (5800 et 5900) dans Windows Defender
@@ -156,19 +196,7 @@
   - Nommez la règle `Ouvrir Port 5900`.
 
    
-## Étape 6: Configuration de TightVNC 
 
-1. **Configurer TightVNC pour démarrer automatiquement :** Une fois l'installation terminée, assurez-vous que TightVNC est configuré pour démarrer automatiquement avec le système. Vous pouvez généralement trouver cette option dans les paramètres de démarrage ou de services de Windows.
-
-2. **Tester la connexion VNC :** Avant de passer à la prochaine étape, assurez-vous de tester la connexion TightVNC en utilisant le client VNC depuis une machine distante. Assurez-vous que vous pouvez vous connecter au serveur Windows Server 2022 à l'aide du nom d'utilisateur et du mot de passe que vous avez configurés.
-
-## Étape 7: Configuration de la connexion SSH
-
-1. **Vérifier la disponibilité de SSH :** Assurez-vous que le service SSH est en cours d'exécution sur votre serveur Windows Server 2022. Vous pouvez le vérifier en recherchant le service "OpenSSH SSH Server" dans la liste des services Windows.
-
-2. **Configurer les autorisations SSH :** Si nécessaire, configurez les autorisations SSH pour permettre la connexion à distance en utilisant des clés SSH ou des identifiants de connexion.
-
-3. **Testez la connexion SSH :** Utilisez un client SSH tel que PuTTY ou OpenSSH pour vous connecter à votre serveur Windows Server 2022. Assurez-vous que la connexion fonctionne correctement en vous connectant avec les identifiants appropriés.
 
 
 

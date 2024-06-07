@@ -102,6 +102,8 @@
 
    ![TightVNC](images/pare_feu_client.png)
 
+- **Note : Il est nécessaire de faire cela afin que l'administrateur (ou celui qui vous aide) puisse contrôler à distance votre PC.**
+
 #### Voilà tout est installé pour la partie client ! Si vous avez besoin d'installer TightVNC sur votre serveur, il y a l'explication dans la suite du tuto ! 
 
 ## Partie Serveur - Installation de Windows Server 2022 avec TightVNC 
@@ -166,7 +168,8 @@
   ### 1. Désactiver les Pare-feu :
 
    ![Pare_Feu](images/Pare_feu_server.png)
-   
+
+ - **Note : Il est nécessaire de faire cela afin de pouvoir ouvrir les ports 5800 et 5900 pour pouvoir contrôler à distance les ordinateurs.**
  
 #### Voilà tout est installé , normalament si vous avez suivi toutes les étapes vous avez réussi votre installation de TightVNC sur un serveur !
    

@@ -33,9 +33,9 @@ Pour accéder à votre serveur TightVNC, veuillez suivre les directives ci-desso
 
 ![](https://github.com/WildCodeSchool/tssr-2405-p1-g2-VNC/blob/main/images/vnc-prise-main-distance-TightVNC.png)
 
-2. **Cliquer sur connexion puis insérer le mot de passe** : `Azerty1*` (défini par votre administrateur)
+2. **Dans le champ "Remote Host", entrez l'adresse IP ou le nom de domaine du serveur auquel vous souhaitez vous connecter.
 
-3. **Format de l'adresse IP avec le port** : En cas de spécification d'un port, assurez-vous d'utiliser la syntaxe adéquate en choisissant entre ces deux options :
+3. **Si un port spécifique est nécessaire, assurez-vous d'utiliser la syntaxe adéquate en choisissant entre ces deux options :
     - `"Nom-de-domaine::port"` (si un nom de domaine est utilisé)
     - `"IPv4::port"` (en cas d'utilisation d'une adresse IP)
 

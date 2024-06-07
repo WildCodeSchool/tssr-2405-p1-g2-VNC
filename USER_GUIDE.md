@@ -55,7 +55,7 @@ Double-clic sur l'icône de lancement située sur le bureau
 
 ### Utilisation Avancée 
 
-Veuillez appuyer sur la touche Option comme indiqué dans l'image ci-dessous pour accéder aux options
+Veuillez appuyer sur la touche Options comme indiqué dans l'image ci-dessous pour accéder aux utilisations avancées
     
 ![](https://github.com/WildCodeSchool/tssr-2405-p1-g2-VNC/blob/main/images/Guide_vnc.png).
 ![](https://github.com/WildCodeSchool/tssr-2405-p1-g2-VNC/blob/main/images/guide_options.png)

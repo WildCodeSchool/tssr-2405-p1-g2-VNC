@@ -1,3 +1,6 @@
+
+# Comment Installer TightVNC sur un ordinateur client et sur un serveur.
+
 ## *-OPTIONNEL-* Préparation de la VM sur Proxmox (Serveur et Client) 
 
 ### Partie Client et Serveur

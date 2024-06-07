@@ -13,8 +13,6 @@ Le système TightVNC repose essentiellement sur deux composants majeurs : le ser
 
 ### Objectifs Principaux: 
 
-- **Assurer la Disponibilité Permanente** : En mettant en place TightVNC en tant que "Service Système", l'accès au serveur est assuré dès le démarrage de l'ordinateur, ce qui revêt une importance cruciale pour la maintenance et le support continu. 
-
 - **Faciliter l'Administration à Distance** : TightVNC permet aux administrateurs système de surveiller, gérer et dépanner les ordinateurs à distance, réduisant ainsi les temps d'arrêt et les interventions physiques requises. 
 
 - **Renforcer la Sécurité** : Par le biais de la personnalisation des paramètres de sécurité, les administrateurs peuvent garantir que les connexions à distance sont protégées contre tout accès non autorisé. 

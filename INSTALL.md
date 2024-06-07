@@ -1,53 +1,5 @@
-## Partie Client : Installation de TightVNC et désactivation de pare-feu
 
-
-## Étape 1 : Configuration et Installation de TightVNC
-
-1. [Télécharger TightVNC](https://www.tightvnc.com/download.php) : Téléchargez la dernière version de TightVNC pour Windows 
-   
-   ![TightVNC](images/Installation_TightVNC_1.png)
-
-2. Cliquez sur `Next`.
-
-  ![TightVNC](images/Installation_TightVNC_2.png)
-
-3. Acceptez les règles et cliquez sur `Next`.
-
-  ![TightVNC](images/Installation_TightVNC_3.png)
-
-4. Cliquez sur `Custom`.
-
-  ![TightVNC](images/Installation_TightVNC_4.png)
-
-5. Cliquez sur `TightVNC server`* et selectionner `Entire feature will be unavailable`.
-
-   ![TightVNC](images/Installation_TightVNC_5.png)
-
-6. Cliquez sur `Next`.
-
-   ![TightVNC](images/Installation_TightVNC_6.png)
-
-7. Cliquez sur `Next`.
-
-   ![TightVNC](images/Installation_TightVNC_7.png)
-
-8. Cliquez sur `Install`.
-
-   ![TightVNC](images/Installation_TightVNC_8.png)
-
-9. Cliquez sur `Finish`.
-
-   ![TightVNC](images/Installation_TightVNC_9.png)
-
-## Étape 2: Désactiver les pare feux 
-  
-  ### Désactiver les pare-feux :
-
-   ![TightVNC](images/pare_feu_client.png)
-
-## Partie Serveur - Installation de Windows Server 2022 avec TightVNC et une connexion SSH 
-
-### Étape 1 : Préparation
+## Préparation de la VM sur Proxmox
 
 1. [Télécharger l'ISO de Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) : Allez sur le site officiel de Microsoft pour télécharger l'ISO de Windows Server 2022.
 2. Ouvrir Proxmox
@@ -101,6 +53,56 @@
 
 - Complétez l'installation de Windows Server en suivant les instructions à l'écran.
 - Configurez les paramètres initiaux, tels que le mot de passe administrateur.
+
+## Partie Client : Installation de TightVNC et désactivation du Pare-feu
+
+## Étape 1 : Configuration et Installation de TightVNC
+
+1. [Télécharger TightVNC](https://www.tightvnc.com/download.php) : Téléchargez la dernière version de TightVNC pour Windows 
+   
+   ![TightVNC](images/Installation_TightVNC_1.png)
+
+2. Cliquez sur `Next`.
+
+  ![TightVNC](images/Installation_TightVNC_2.png)
+
+3. Acceptez les règles et cliquez sur `Next`.
+
+  ![TightVNC](images/Installation_TightVNC_3.png)
+
+4. Cliquez sur `Custom`.
+
+  ![TightVNC](images/Installation_TightVNC_4.png)
+
+5. Cliquez sur `TightVNC server`* et selectionner `Entire feature will be unavailable`.
+
+   ![TightVNC](images/Installation_TightVNC_5.png)
+
+6. Cliquez sur `Next`.
+
+   ![TightVNC](images/Installation_TightVNC_6.png)
+
+7. Cliquez sur `Next`.
+
+   ![TightVNC](images/Installation_TightVNC_7.png)
+
+8. Cliquez sur `Install`.
+
+   ![TightVNC](images/Installation_TightVNC_8.png)
+
+9. Cliquez sur `Finish`.
+
+   ![TightVNC](images/Installation_TightVNC_9.png)
+
+## Étape 2: Désactiver les pare feux 
+  
+  ### Désactiver les pare-feux :
+
+   ![TightVNC](images/pare_feu_client.png)
+
+## Partie Serveur - Installation de Windows Server 2022 avec TightVNC 
+
+
 
 ## Étape 3: Configuration et Installation de TightVNC
 

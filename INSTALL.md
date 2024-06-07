@@ -156,9 +156,6 @@ De plus, si vous avez choisi l'option d'installation de TightVNC en tant que ser
 
    ![TightVNC](images/install_server5.png)
 
-Vous pouvez également retrouver la règle ajoutée pour TightVNC dans le Firewall de Windows telle que :
-
-   ![TightVNC](images/install_server6.png)
     
 ## Étape 5: Désactiver les pare feux ou ouvrir les ports VNC (5800 et 5900) dans Windows Defender
   

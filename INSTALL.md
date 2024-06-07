@@ -146,19 +146,19 @@
 
 Normalement, vous devriez voir un icône en plus de VNC dans la barre des tâches et dans les raccourcis Windows
 
-   ![TightVNC](images/install_server2.png)
-
-
    ![TightVNC](images/install_server3.png)
+
+
+   ![TightVNC](images/install_server4.png)
 
 
 De plus, si vous avez choisi l'option d'installation de TightVNC en tant que service, vous trouverez la ligne correspondante dans le menu des services de Windows, comme suit :
 
-   ![TightVNC](images/install_server4.png)
+   ![TightVNC](images/install_server5.png)
 
 Vous pouvez également retrouver la règle ajoutée pour TightVNC dans le Firewall de Windows telle que :
 
-   ![TightVNC](images/install_server5.png)
+   ![TightVNC](images/install_server6.png)
     
 ## Étape 5: Désactiver les pare feux ou ouvrir les ports VNC (5800 et 5900) dans Windows Defender
   
